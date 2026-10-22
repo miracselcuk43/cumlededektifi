@@ -1,0 +1,6 @@
+{
+  "name": "CümleDedektif — Türkçe Cümle ve İletişim Amacı Analiz Sistemi",
+  "description": "Türkçe cümlelerin duygusunu, iletişim amacını, nezaket düzeyini, emir niteliğini ve dilsel morfolojik özelliklerini analiz eden akademik NLP sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

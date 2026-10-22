@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+build/
+out/
+.vercel
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.coverage
+htmlcov/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
