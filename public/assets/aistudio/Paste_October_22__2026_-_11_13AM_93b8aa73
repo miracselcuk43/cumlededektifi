@@ -1,0 +1,1499 @@
+11:13:05.647 Running build in Washington, D.C., USA (East) – iad1
+11:13:05.648 Build machine configuration: 2 cores, 8 GB
+11:13:05.812 Cloning github.com/miracselcuk43/cumlededektifi (Branch: main, Commit: dee4ef2)
+11:13:05.814 Previous build caches not available.
+11:13:06.239 Cloning completed: 425.000ms
+11:13:06.801 Running "vercel build"
+11:13:06.823 Vercel CLI 64.7.0
+11:13:07.958 Installing dependencies...
+11:13:08.533 Using CPython 3.14.8
+11:13:08.799 Resolved 26 packages in 261ms
+11:13:09.779    Building gensim==4.3.3
+11:13:09.873    Building scikit-learn==1.5.2
+11:13:16.302    Building numpy==1.26.4
+11:13:16.470    Building scipy==1.13.1
+11:13:17.253   × Failed to build `gensim==4.3.3`
+11:13:17.253   ├─▶ The build backend returned an error
+11:13:17.254   ╰─▶ Call to `setuptools.build_meta:__legacy__.build_wheel` failed (exit
+11:13:17.255       status: 1)
+11:13:17.256 
+11:13:17.260       [stdout]
+11:13:17.261       running bdist_wheel
+11:13:17.261       running build
+11:13:17.261       running build_py
+11:13:17.261       creating build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.261       copying gensim/__init__.py -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.261       copying gensim/downloader.py -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.262       copying gensim/interfaces.py -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.262       copying gensim/matutils.py -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.262       copying gensim/nosy.py -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.262       copying gensim/utils.py -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.262       creating build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.262       copying gensim/corpora/__init__.py ->
+11:13:17.262       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.263       copying gensim/corpora/bleicorpus.py ->
+11:13:17.263       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.263       copying gensim/corpora/csvcorpus.py ->
+11:13:17.263       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.263       copying gensim/corpora/dictionary.py ->
+11:13:17.263       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.263       copying gensim/corpora/hashdictionary.py ->
+11:13:17.263       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.264       copying gensim/corpora/indexedcorpus.py ->
+11:13:17.264       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.264       copying gensim/corpora/lowcorpus.py ->
+11:13:17.265       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.265       copying gensim/corpora/malletcorpus.py ->
+11:13:17.265       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.265       copying gensim/corpora/mmcorpus.py ->
+11:13:17.265       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.265       copying gensim/corpora/opinosiscorpus.py ->
+11:13:17.265       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.265       copying gensim/corpora/sharded_corpus.py ->
+11:13:17.265       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.265       copying gensim/corpora/svmlightcorpus.py ->
+11:13:17.265       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.265       copying gensim/corpora/textcorpus.py ->
+11:13:17.266       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.266       copying gensim/corpora/ucicorpus.py ->
+11:13:17.266       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.266       copying gensim/corpora/wikicorpus.py ->
+11:13:17.266       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.266       creating build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.266       copying gensim/models/__init__.py ->
+11:13:17.266       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.266       copying gensim/models/_fasttext_bin.py ->
+11:13:17.266       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.266       copying gensim/models/atmodel.py ->
+11:13:17.266       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.266       copying gensim/models/basemodel.py ->
+11:13:17.266       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.267       copying gensim/models/bm25model.py ->
+11:13:17.267       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.267       copying gensim/models/callbacks.py ->
+11:13:17.267       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.267       copying gensim/models/coherencemodel.py ->
+11:13:17.267       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.267       copying gensim/models/doc2vec.py ->
+11:13:17.268       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.268       copying gensim/models/ensemblelda.py ->
+11:13:17.268       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.268       copying gensim/models/fasttext.py ->
+11:13:17.268       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.268       copying gensim/models/hdpmodel.py ->
+11:13:17.268       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.268       copying gensim/models/keyedvectors.py ->
+11:13:17.268       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.268       copying gensim/models/lda_dispatcher.py ->
+11:13:17.268       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.268       copying gensim/models/lda_worker.py ->
+11:13:17.268       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.268       copying gensim/models/ldamodel.py ->
+11:13:17.269       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.269       copying gensim/models/ldamulticore.py ->
+11:13:17.269       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.269       copying gensim/models/ldaseqmodel.py ->
+11:13:17.269       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.269       copying gensim/models/logentropy_model.py ->
+11:13:17.269       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.269       copying gensim/models/lsi_dispatcher.py ->
+11:13:17.269       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.269       copying gensim/models/lsi_worker.py ->
+11:13:17.269       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/lsimodel.py ->
+11:13:17.270       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/nmf.py ->
+11:13:17.270       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/normmodel.py ->
+11:13:17.270       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/phrases.py ->
+11:13:17.270       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/poincare.py ->
+11:13:17.270       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/rpmodel.py ->
+11:13:17.270       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/tfidfmodel.py ->
+11:13:17.270       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.270       copying gensim/models/translation_matrix.py ->
+11:13:17.271       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.271       copying gensim/models/word2vec.py ->
+11:13:17.276       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.277       creating build/lib.linux-x86_64-cpython-314/gensim/parsing
+11:13:17.277       copying gensim/parsing/__init__.py ->
+11:13:17.277       build/lib.linux-x86_64-cpython-314/gensim/parsing
+11:13:17.277       copying gensim/parsing/porter.py ->
+11:13:17.277       build/lib.linux-x86_64-cpython-314/gensim/parsing
+11:13:17.278       copying gensim/parsing/preprocessing.py ->
+11:13:17.278       build/lib.linux-x86_64-cpython-314/gensim/parsing
+11:13:17.278       creating build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.278       copying gensim/scripts/__init__.py ->
+11:13:17.278       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.278       copying gensim/scripts/benchmark.py ->
+11:13:17.279       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.279       copying gensim/scripts/glove2word2vec.py ->
+11:13:17.279       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.279       copying gensim/scripts/make_wiki.py ->
+11:13:17.279       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.279       copying gensim/scripts/make_wiki_online.py ->
+11:13:17.279       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.280       copying gensim/scripts/make_wiki_online_nodebug.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.280       copying gensim/scripts/make_wikicorpus.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.280       copying gensim/scripts/package_info.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.280       copying gensim/scripts/segment_wiki.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.280       copying gensim/scripts/word2vec2tensor.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.280       copying gensim/scripts/word2vec_standalone.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/scripts
+11:13:17.280       creating build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.280       copying gensim/similarities/__init__.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.280       copying gensim/similarities/annoy.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.280       copying gensim/similarities/docsim.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.280       copying gensim/similarities/levenshtein.py ->
+11:13:17.280       build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.280       copying gensim/similarities/nmslib.py ->
+11:13:17.281       build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.282       copying gensim/similarities/termsim.py ->
+11:13:17.282       build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.283       creating build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.283       copying gensim/test/__init__.py ->
+11:13:17.283       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.283       copying gensim/test/basetmtests.py ->
+11:13:17.284       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.284       copying gensim/test/simspeed.py ->
+11:13:17.284       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.284       copying gensim/test/simspeed2.py ->
+11:13:17.285       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.285       copying gensim/test/svd_error.py ->
+11:13:17.285       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.285       copying gensim/test/test_aggregation.py ->
+11:13:17.285       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.285       copying gensim/test/test_api.py ->
+11:13:17.286       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.286       copying gensim/test/test_atmodel.py ->
+11:13:17.286       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.286       copying gensim/test/test_big.py ->
+11:13:17.286       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.287       copying gensim/test/test_bm25model.py ->
+11:13:17.287       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.287       copying gensim/test/test_coherencemodel.py ->
+11:13:17.288       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.288       copying gensim/test/test_corpora.py ->
+11:13:17.288       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.289       copying gensim/test/test_corpora_dictionary.py ->
+11:13:17.289       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.289       copying gensim/test/test_corpora_hashdictionary.py ->
+11:13:17.289       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.289       copying gensim/test/test_datatype.py ->
+11:13:17.289       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.291       copying gensim/test/test_direct_confirmation.py ->
+11:13:17.291       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.291       copying gensim/test/test_doc2vec.py ->
+11:13:17.294       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.294       copying gensim/test/test_ensemblelda.py ->
+11:13:17.294       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.294       copying gensim/test/test_fasttext.py ->
+11:13:17.294       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.294       copying gensim/test/test_glove2word2vec.py ->
+11:13:17.294       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.294       copying gensim/test/test_hdpmodel.py ->
+11:13:17.294       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.295       copying gensim/test/test_indirect_confirmation.py ->
+11:13:17.295       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.296       copying gensim/test/test_keyedvectors.py ->
+11:13:17.296       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.296       copying gensim/test/test_lda_callback.py ->
+11:13:17.296       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.296       copying gensim/test/test_ldamodel.py ->
+11:13:17.296       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.297       copying gensim/test/test_ldaseqmodel.py ->
+11:13:17.297       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.297       copying gensim/test/test_lee.py ->
+11:13:17.297       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.297       copying gensim/test/test_logentropy_model.py ->
+11:13:17.297       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.297       copying gensim/test/test_lsimodel.py ->
+11:13:17.297       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.297       copying gensim/test/test_matutils.py ->
+11:13:17.297       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.297       copying gensim/test/test_miislita.py ->
+11:13:17.297       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.297       copying gensim/test/test_nmf.py ->
+11:13:17.298       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.298       copying gensim/test/test_normmodel.py ->
+11:13:17.298       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.298       copying gensim/test/test_parsing.py ->
+11:13:17.298       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.299       copying gensim/test/test_phrases.py ->
+11:13:17.299       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.302       copying gensim/test/test_poincare.py ->
+11:13:17.302       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.303       copying gensim/test/test_probability_estimation.py ->
+11:13:17.303       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.303       copying gensim/test/test_rpmodel.py ->
+11:13:17.303       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.303       copying gensim/test/test_scripts.py ->
+11:13:17.306       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.306       copying gensim/test/test_segmentation.py ->
+11:13:17.306       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.306       copying gensim/test/test_sharded_corpus.py ->
+11:13:17.306       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.306       copying gensim/test/test_similarities.py ->
+11:13:17.306       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.306       copying gensim/test/test_similarity_metrics.py ->
+11:13:17.306       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.306       copying gensim/test/test_text_analysis.py ->
+11:13:17.306       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.306       copying gensim/test/test_tfidfmodel.py ->
+11:13:17.306       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.306       copying gensim/test/test_tmdiff.py ->
+11:13:17.307       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.307       copying gensim/test/test_translation_matrix.py ->
+11:13:17.307       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.307       copying gensim/test/test_utils.py ->
+11:13:17.307       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.307       copying gensim/test/test_word2vec.py ->
+11:13:17.307       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.307       copying gensim/test/utils.py ->
+11:13:17.307       build/lib.linux-x86_64-cpython-314/gensim/test
+11:13:17.307       creating build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.307       copying gensim/topic_coherence/__init__.py ->
+11:13:17.309       build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.309       copying gensim/topic_coherence/aggregation.py ->
+11:13:17.310       build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.310       copying gensim/topic_coherence/direct_confirmation_measure.py ->
+11:13:17.310       build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.310       copying gensim/topic_coherence/indirect_confirmation_measure.py ->
+11:13:17.310       build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.310       copying gensim/topic_coherence/probability_estimation.py ->
+11:13:17.310       build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.310       copying gensim/topic_coherence/segmentation.py ->
+11:13:17.311       build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.311       copying gensim/topic_coherence/text_analysis.py ->
+11:13:17.311       build/lib.linux-x86_64-cpython-314/gensim/topic_coherence
+11:13:17.311       running egg_info
+11:13:17.311       writing gensim.egg-info/PKG-INFO
+11:13:17.312       writing dependency_links to gensim.egg-info/dependency_links.txt
+11:13:17.317       writing requirements to gensim.egg-info/requires.txt
+11:13:17.317       writing top-level names to gensim.egg-info/top_level.txt
+11:13:17.318       reading manifest file 'gensim.egg-info/SOURCES.txt'
+11:13:17.318       reading manifest template 'MANIFEST.in'
+11:13:17.318       adding license file 'COPYING'
+11:13:17.318       writing manifest file 'gensim.egg-info/SOURCES.txt'
+11:13:17.318       copying gensim/_matutils.c -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.318       copying gensim/_matutils.pyx -> build/lib.linux-x86_64-cpython-314/gensim
+11:13:17.319       copying gensim/corpora/_mmreader.c ->
+11:13:17.319       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.319       copying gensim/corpora/_mmreader.pyx ->
+11:13:17.319       build/lib.linux-x86_64-cpython-314/gensim/corpora
+11:13:17.319       copying gensim/models/doc2vec_corpusfile.cpp ->
+11:13:17.320       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.320       copying gensim/models/doc2vec_corpusfile.pyx ->
+11:13:17.320       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.320       copying gensim/models/doc2vec_inner.cpp ->
+11:13:17.320       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.320       copying gensim/models/doc2vec_inner.pxd ->
+11:13:17.321       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.321       copying gensim/models/doc2vec_inner.pyx ->
+11:13:17.321       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.321       copying gensim/models/fast_line_sentence.h ->
+11:13:17.321       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.321       copying gensim/models/fasttext_corpusfile.cpp ->
+11:13:17.321       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.321       copying gensim/models/fasttext_corpusfile.pyx ->
+11:13:17.321       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.321       copying gensim/models/fasttext_inner.c ->
+11:13:17.321       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/fasttext_inner.pxd ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/fasttext_inner.pyx ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/nmf_pgd.c ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/nmf_pgd.pyx ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/stdint_wrapper.h ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/voidptr.h ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/word2vec_corpusfile.cpp ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/word2vec_corpusfile.pxd ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/word2vec_corpusfile.pyx ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/word2vec_inner.c ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/word2vec_inner.pxd ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.322       copying gensim/models/word2vec_inner.pyx ->
+11:13:17.322       build/lib.linux-x86_64-cpython-314/gensim/models
+11:13:17.323       copying gensim/similarities/fastss.c ->
+11:13:17.323       build/lib.linux-x86_64-cpython-314/gensim/similarities
+11:13:17.323       creating build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.323       copying
+11:13:17.323       gensim/test/test_data/EN.1-10.cbow1_wind5_hs0_neg10_size300_smpl1e-05.txt
+11:13:17.323       -> build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.323       copying
+11:13:17.323       gensim/test/test_data/IT.1-10.cbow1_wind5_hs0_neg10_size300_smpl1e-05.txt
+11:13:17.323       -> build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.323       copying gensim/test/test_data/OPUS_en_it_europarl_train_one2ten.txt ->
+11:13:17.323       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.323       copying gensim/test/test_data/alldata-id-10.txt ->
+11:13:17.323       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.324       copying gensim/test/test_data/atmodel_3_0_1_model ->
+11:13:17.324       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.324       copying gensim/test/test_data/atmodel_3_0_1_model.expElogbeta.npy ->
+11:13:17.324       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.324       copying gensim/test/test_data/atmodel_3_0_1_model.id2word ->
+11:13:17.324       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.324       copying gensim/test/test_data/atmodel_3_0_1_model.state ->
+11:13:17.325       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.325       copying
+11:13:17.325       gensim/test/test_data/bgwiki-latest-pages-articles-shortened.xml.bz2 ->
+11:13:17.325       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.325       copying gensim/test/test_data/compatible-hash-true.model ->
+11:13:17.325       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.325       copying gensim/test/test_data/cp852_fasttext.bin ->
+11:13:17.325       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.325       copying gensim/test/test_data/crime-and-punishment.bin ->
+11:13:17.325       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.325       copying gensim/test/test_data/crime-and-punishment.txt ->
+11:13:17.325       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.325       copying gensim/test/test_data/crime-and-punishment.vec ->
+11:13:17.326       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.326       copying gensim/test/test_data/d2v-lee-v0.13.0 ->
+11:13:17.326       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.327       copying gensim/test/test_data/doc2vec_old ->
+11:13:17.327       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.327       copying gensim/test/test_data/doc2vec_old_sep ->
+11:13:17.327       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.327       copying gensim/test/test_data/doc2vec_old_sep.syn0_lockf.npy ->
+11:13:17.327       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.328       copying gensim/test/test_data/doc2vec_old_sep.syn1neg.npy ->
+11:13:17.328       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.328       copying gensim/test/test_data/dtm_test.dict ->
+11:13:17.328       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.328       copying gensim/test/test_data/dtm_test.mm ->
+11:13:17.328       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.328       copying gensim/test/test_data/ensemblelda ->
+11:13:17.328       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.329       copying
+11:13:17.329       gensim/test/test_data/enwiki-latest-pages-articles1.xml-p000000010p000030302-shortened.bz2
+11:13:17.329       -> build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.329       copying gensim/test/test_data/enwiki-table-markup.xml.bz2 ->
+11:13:17.329       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.330       copying gensim/test/test_data/euclidean_vectors.bin ->
+11:13:17.330       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.330       copying gensim/test/test_data/fasttext_old ->
+11:13:17.330       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.330       copying gensim/test/test_data/fasttext_old_sep ->
+11:13:17.333       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.334       copying gensim/test/test_data/fasttext_old_sep.syn0_lockf.npy ->
+11:13:17.334       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.334       copying gensim/test/test_data/fasttext_old_sep.syn1neg.npy ->
+11:13:17.334       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.334       copying gensim/test/test_data/fb-ngrams.txt ->
+11:13:17.334       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.335       copying gensim/test/test_data/ft_kv_3.6.0.model.gz ->
+11:13:17.335       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.335       copying gensim/test/test_data/ft_model_2.3.0 ->
+11:13:17.335       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.335       copying gensim/test/test_data/head500.noblanks.cor ->
+11:13:17.335       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.336       copying gensim/test/test_data/head500.noblanks.cor.bz2 ->
+11:13:17.336       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.337       copying gensim/test/test_data/head500.noblanks.cor_tfidf.model ->
+11:13:17.338       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.338       copying gensim/test/test_data/head500.noblanks.cor_wordids.txt ->
+11:13:17.338       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.338       copying gensim/test/test_data/high_precision.kv.bin ->
+11:13:17.338       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.339       copying gensim/test/test_data/high_precision.kv.txt ->
+11:13:17.339       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.339       copying gensim/test/test_data/large_tag_doc_10_iter50 ->
+11:13:17.339       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.339       copying gensim/test/test_data/lda_3_0_1_model ->
+11:13:17.339       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.340       copying gensim/test/test_data/lda_3_0_1_model.expElogbeta.npy ->
+11:13:17.340       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.340       copying gensim/test/test_data/lda_3_0_1_model.id2word ->
+11:13:17.340       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.340       copying gensim/test/test_data/lda_3_0_1_model.state ->
+11:13:17.340       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.340       copying gensim/test/test_data/ldamodel_python_2_7 ->
+11:13:17.340       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.341       copying gensim/test/test_data/ldamodel_python_2_7.expElogbeta.npy ->
+11:13:17.341       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.342       copying gensim/test/test_data/ldamodel_python_2_7.id2word ->
+11:13:17.342       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.342       copying gensim/test/test_data/ldamodel_python_2_7.state ->
+11:13:17.342       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.342       copying gensim/test/test_data/ldamodel_python_3_5 ->
+11:13:17.342       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.342       copying gensim/test/test_data/ldamodel_python_3_5.expElogbeta.npy ->
+11:13:17.342       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.342       copying gensim/test/test_data/ldamodel_python_3_5.id2word ->
+11:13:17.343       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.343       copying gensim/test/test_data/ldamodel_python_3_5.state ->
+11:13:17.343       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.343       copying gensim/test/test_data/ldavowpalwabbit.dict.txt ->
+11:13:17.343       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.343       copying gensim/test/test_data/ldavowpalwabbit.txt ->
+11:13:17.343       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.343       copying gensim/test/test_data/lee.cor ->
+11:13:17.344       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.344       copying gensim/test/test_data/lee_background.cor ->
+11:13:17.344       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.344       copying gensim/test/test_data/lee_fasttext ->
+11:13:17.344       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.345       copying gensim/test/test_data/lee_fasttext.bin ->
+11:13:17.345       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.345       copying gensim/test/test_data/lee_fasttext.vec ->
+11:13:17.345       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.345       copying gensim/test/test_data/lee_fasttext_new.bin ->
+11:13:17.345       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.345       copying gensim/test/test_data/miIslita.cor ->
+11:13:17.345       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.346       copying gensim/test/test_data/mini_newsgroup ->
+11:13:17.346       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.346       copying gensim/test/test_data/model-from-gensim-3.8.0.w2v ->
+11:13:17.346       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.347       copying gensim/test/test_data/nmf_model ->
+11:13:17.347       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.347       copying gensim/test/test_data/non_ascii_fasttext.bin ->
+11:13:17.347       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.348       copying gensim/test/test_data/old_keyedvectors_320.dat ->
+11:13:17.348       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.349       copying gensim/test/test_data/pang_lee_polarity.cor ->
+11:13:17.350       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.350       copying gensim/test/test_data/pang_lee_polarity_fasttext.bin ->
+11:13:17.350       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.350       copying gensim/test/test_data/pang_lee_polarity_fasttext.vec ->
+11:13:17.350       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.350       copying gensim/test/test_data/para2para_text1.txt ->
+11:13:17.350       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.351       copying gensim/test/test_data/para2para_text2.txt ->
+11:13:17.351       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.351       copying gensim/test/test_data/phraser-3.6.0.model ->
+11:13:17.352       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.352       copying gensim/test/test_data/phraser-no-common-terms.pkl ->
+11:13:17.352       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.352       copying gensim/test/test_data/phraser-no-scoring.pkl ->
+11:13:17.352       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.352       copying gensim/test/test_data/phraser-scoring-str.pkl ->
+11:13:17.352       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.353       copying gensim/test/test_data/phrases-3.6.0.model ->
+11:13:17.353       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.354       copying gensim/test/test_data/phrases-no-common-terms.pkl ->
+11:13:17.354       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.354       copying gensim/test/test_data/phrases-no-scoring.pkl ->
+11:13:17.354       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.354       copying gensim/test/test_data/phrases-scoring-str.pkl ->
+11:13:17.354       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.355       copying gensim/test/test_data/poincare_cp852.tsv ->
+11:13:17.355       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.355       copying gensim/test/test_data/poincare_hypernyms.tsv ->
+11:13:17.355       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.356       copying gensim/test/test_data/poincare_hypernyms_large.tsv ->
+11:13:17.356       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.356       copying gensim/test/test_data/poincare_test_3.4.0 ->
+11:13:17.356       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.357       copying gensim/test/test_data/poincare_utf8.tsv ->
+11:13:17.357       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.357       copying gensim/test/test_data/poincare_vectors.bin ->
+11:13:17.357       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.357       copying gensim/test/test_data/pre_0_13_2_model ->
+11:13:17.357       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.357       copying gensim/test/test_data/pre_0_13_2_model.state ->
+11:13:17.357       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.357       copying gensim/test/test_data/pretrained.vec ->
+11:13:17.358       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.358       copying gensim/test/test_data/questions-words.txt ->
+11:13:17.358       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.358       copying gensim/test/test_data/reproduce.dat ->
+11:13:17.358       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.360       copying gensim/test/test_data/reproduce.dat.gz ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/similarities0-1.txt ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/simlex999.txt ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/small_tag_doc_5_iter50 ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_corpus_ok.mm ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_corpus_small.mm ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_glove.txt ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_mmcorpus_corrupt.mm ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_mmcorpus_no_index.mm ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_mmcorpus_no_index.mm.bz2 ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_mmcorpus_no_index.mm.gz ->
+11:13:17.362       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.362       copying gensim/test/test_data/test_mmcorpus_overflow.mm ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/test_mmcorpus_with_index.mm ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/test_mmcorpus_with_index.mm.index ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.blei ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.blei.index ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.blei.vocab ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.low ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.low.index ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.mallet ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.mallet.index ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.mm ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.mm.index ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.svmlight ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.svmlight.index ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.txt ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.uci ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.uci.index ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.uci.vocab ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/testcorpus.xml.bz2 ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/tfidf_model.tst ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/tfidf_model.tst.bz2 ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/tfidf_model_3_2.tst ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/toy-data.txt ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/toy-model-pretrained.bin ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/toy-model.bin ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/toy-model.vec ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/varembed_lee_subcorpus.cor ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/varembed_morfessor.bin ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/varembed_vectors.pkl ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.363       copying gensim/test/test_data/w2v-lee-v0.12.0 ->
+11:13:17.363       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/w2v_keyedvectors_load_test.modeldata ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/w2v_keyedvectors_load_test.vocab ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_3.3 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_old ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_old_sep ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_old_sep.syn0_lockf.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_old_sep.syn1neg.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_c ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_py2 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_py3 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_py3_4 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py2 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py2.neg_labels.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py2.syn0.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py2.syn0_lockf.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py2.syn1neg.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3.neg_labels.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3.syn0.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3.syn0_lockf.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3.syn1neg.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3_4 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3_4.neg_labels.npy
+11:13:17.364       -> build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3_4.syn0.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3_4.syn0_lockf.npy
+11:13:17.364       -> build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/word2vec_pre_kv_sep_py3_4.syn1neg.npy ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       copying gensim/test/test_data/wordsim353.tsv ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data
+11:13:17.364       creating build/lib.linux-x86_64-cpython-314/gensim/test/test_data/DTM
+11:13:17.364       copying gensim/test/test_data/DTM/ldaseq_3_0_1_model ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/DTM
+11:13:17.364       copying gensim/test/test_data/DTM/sstats_test.txt ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/DTM
+11:13:17.364       creating
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/PathLineSentences
+11:13:17.364       copying gensim/test/test_data/PathLineSentences/1.txt ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/PathLineSentences
+11:13:17.364       copying gensim/test/test_data/PathLineSentences/2.txt.bz2 ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/PathLineSentences
+11:13:17.364       creating
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.364       copying gensim/test/test_data/old_d2v_models/d2v_0.12.0.mdl ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.364       copying gensim/test/test_data/old_d2v_models/d2v_0.12.1.mdl ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.364       copying gensim/test/test_data/old_d2v_models/d2v_0.12.2.mdl ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.364       copying gensim/test/test_data/old_d2v_models/d2v_0.12.3.mdl ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.364       copying gensim/test/test_data/old_d2v_models/d2v_0.12.4.mdl ->
+11:13:17.364       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.364       copying gensim/test/test_data/old_d2v_models/d2v_0.13.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_0.13.1.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_0.13.2.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_0.13.3.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_0.13.4.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_1.0.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_1.0.1.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_2.0.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_2.1.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_2.2.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_2.3.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_3.0.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_3.1.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_3.2.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_3.3.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       copying gensim/test/test_data/old_d2v_models/d2v_3.4.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_d2v_models
+11:13:17.365       creating
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.12.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.12.1.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.12.2.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.12.3.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.12.4.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.13.0.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.13.1.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.13.2.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.13.3.mdl ->
+11:13:17.365       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.365       copying gensim/test/test_data/old_w2v_models/w2v_0.13.4.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_1.0.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_1.0.1.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_2.0.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_2.1.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_2.2.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_2.3.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_3.0.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_3.1.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_3.2.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.370       copying gensim/test/test_data/old_w2v_models/w2v_3.3.0.mdl ->
+11:13:17.370       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.371       copying gensim/test/test_data/old_w2v_models/w2v_3.4.0.mdl ->
+11:13:17.371       build/lib.linux-x86_64-cpython-314/gensim/test/test_data/old_w2v_models
+11:13:17.371       running build_ext
+11:13:17.371       building 'gensim.models.word2vec_inner' extension
+11:13:17.371       cc -pthread -fno-strict-overflow -Wsign-compare
+11:13:17.371       -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector
+11:13:17.371       -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2
+11:13:17.371       -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC
+11:13:17.371       -fPIC -I/vercel/.cache/uv/builds-v0/.tmpggJnnu/include
+11:13:17.371       -I/uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14
+11:13:17.371       -I/vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/numpy/_core/include
+11:13:17.371       -c gensim/models/word2vec_inner.c -o
+11:13:17.371       build/temp.linux-x86_64-cpython-314/gensim/models/word2vec_inner.o
+11:13:17.371 
+11:13:17.371       [stderr]
+11:13:17.371       /vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/setuptools/_distutils/dist.py:318:
+11:13:17.371       UserWarning: Unknown distribution option: 'test_suite'
+11:13:17.371         warnings.warn(msg)
+11:13:17.371       /vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/setuptools/_distutils/dist.py:318:
+11:13:17.371       UserWarning: Unknown distribution option: 'tests_require'
+11:13:17.371         warnings.warn(msg)
+11:13:17.371       /vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/setuptools/command/build_py.py:215:
+11:13:17.371       _Warning: Package 'gensim.test.test_data' is absent from the `packages`
+11:13:17.371       configuration.
+11:13:17.371       !!
+11:13:17.372 
+11:13:17.372       
+11:13:17.372       ********************************************************************************
+11:13:17.372               ############################
+11:13:17.372               # Package would be ignored #
+11:13:17.372               ############################
+11:13:17.372               Python recognizes 'gensim.test.test_data' as an importable
+11:13:17.372       package[^1],
+11:13:17.372               but it is absent from setuptools' `packages` configuration.
+11:13:17.372 
+11:13:17.372               This leads to an ambiguous overall configuration. If you want to
+11:13:17.372       distribute this
+11:13:17.372               package, please make sure that 'gensim.test.test_data' is
+11:13:17.372       explicitly added
+11:13:17.372               to the `packages` configuration field.
+11:13:17.373 
+11:13:17.373               Alternatively, you can also rely on setuptools' discovery
+11:13:17.373       methods
+11:13:17.373               (for example by using
+11:13:17.373       `find_namespace_packages(...)`/`find_namespace:`
+11:13:17.373               instead of `find_packages(...)`/`find:`).
+11:13:17.373 
+11:13:17.373               You can read more about "package discovery" on setuptools
+11:13:17.373       documentation page:
+11:13:17.373 
+11:13:17.373               -
+11:13:17.373       https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+11:13:17.373 
+11:13:17.373               If you don't want 'gensim.test.test_data' to be distributed
+11:13:17.373       and are
+11:13:17.374               already explicitly excluding 'gensim.test.test_data' via
+11:13:17.374               `find_namespace_packages(...)/find_namespace` or
+11:13:17.376       `find_packages(...)/find`,
+11:13:17.376               you can try to use `exclude_package_data`, or
+11:13:17.376       `include-package-data=False` in
+11:13:17.376               combination with a more fine grained `package-data`
+11:13:17.376       configuration.
+11:13:17.376 
+11:13:17.376               You can read more about "package data files" on setuptools
+11:13:17.376       documentation page:
+11:13:17.376 
+11:13:17.376               - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+11:13:17.376 
+11:13:17.376 
+11:13:17.376               [^1]: For Python, any directory (with suitable naming) can be
+11:13:17.376       imported,
+11:13:17.377                     even if it does not contain any `.py` files.
+11:13:17.377                     On the other hand, currently there is no concept of
+11:13:17.377       package data
+11:13:17.377                     directory, all directories are treated like packages.
+11:13:17.377       
+11:13:17.377       ********************************************************************************
+11:13:17.377 
+11:13:17.377       !!
+11:13:17.377         check.warn(importable)
+11:13:17.377       /vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/setuptools/command/build_py.py:215:
+11:13:17.377       _Warning: Package 'gensim.test.test_data.DTM' is absent from the
+11:13:17.377       `packages` configuration.
+11:13:17.377       !!
+11:13:17.377 
+11:13:17.377       
+11:13:17.377       ********************************************************************************
+11:13:17.377               ############################
+11:13:17.377               # Package would be ignored #
+11:13:17.377               ############################
+11:13:17.377               Python recognizes 'gensim.test.test_data.DTM' as an importable
+11:13:17.377       package[^1],
+11:13:17.377               but it is absent from setuptools' `packages` configuration.
+11:13:17.377 
+11:13:17.377               This leads to an ambiguous overall configuration. If you want to
+11:13:17.377       distribute this
+11:13:17.378               package, please make sure that 'gensim.test.test_data.DTM' is
+11:13:17.378       explicitly added
+11:13:17.378               to the `packages` configuration field.
+11:13:17.378 
+11:13:17.378               Alternatively, you can also rely on setuptools' discovery
+11:13:17.378       methods
+11:13:17.378               (for example by using
+11:13:17.378       `find_namespace_packages(...)`/`find_namespace:`
+11:13:17.379               instead of `find_packages(...)`/`find:`).
+11:13:17.379 
+11:13:17.379               You can read more about "package discovery" on setuptools
+11:13:17.379       documentation page:
+11:13:17.379 
+11:13:17.379               -
+11:13:17.379       https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+11:13:17.379 
+11:13:17.379               If you don't want 'gensim.test.test_data.DTM' to be distributed
+11:13:17.379       and are
+11:13:17.379               already explicitly excluding 'gensim.test.test_data.DTM' via
+11:13:17.379               `find_namespace_packages(...)/find_namespace` or
+11:13:17.379       `find_packages(...)/find`,
+11:13:17.379               you can try to use `exclude_package_data`, or
+11:13:17.379       `include-package-data=False` in
+11:13:17.379               combination with a more fine grained `package-data`
+11:13:17.379       configuration.
+11:13:17.379 
+11:13:17.379               You can read more about "package data files" on setuptools
+11:13:17.380       documentation page:
+11:13:17.380 
+11:13:17.380               - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+11:13:17.380 
+11:13:17.380 
+11:13:17.380               [^1]: For Python, any directory (with suitable naming) can be
+11:13:17.380       imported,
+11:13:17.380                     even if it does not contain any `.py` files.
+11:13:17.380                     On the other hand, currently there is no concept of
+11:13:17.380       package data
+11:13:17.380                     directory, all directories are treated like packages.
+11:13:17.380       
+11:13:17.380       ********************************************************************************
+11:13:17.380 
+11:13:17.380       !!
+11:13:17.380         check.warn(importable)
+11:13:17.380       /vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/setuptools/command/build_py.py:215:
+11:13:17.380       _Warning: Package 'gensim.test.test_data.PathLineSentences' is absent
+11:13:17.380       from the `packages` configuration.
+11:13:17.380       !!
+11:13:17.380 
+11:13:17.380       
+11:13:17.380       ********************************************************************************
+11:13:17.380               ############################
+11:13:17.380               # Package would be ignored #
+11:13:17.380               ############################
+11:13:17.380               Python recognizes 'gensim.test.test_data.PathLineSentences' as
+11:13:17.380       an importable package[^1],
+11:13:17.380               but it is absent from setuptools' `packages` configuration.
+11:13:17.380 
+11:13:17.380               This leads to an ambiguous overall configuration. If you want to
+11:13:17.381       distribute this
+11:13:17.381               package, please make sure that
+11:13:17.381       'gensim.test.test_data.PathLineSentences' is explicitly added
+11:13:17.381               to the `packages` configuration field.
+11:13:17.381 
+11:13:17.381               Alternatively, you can also rely on setuptools' discovery
+11:13:17.381       methods
+11:13:17.381               (for example by using
+11:13:17.381       `find_namespace_packages(...)`/`find_namespace:`
+11:13:17.381               instead of `find_packages(...)`/`find:`).
+11:13:17.381 
+11:13:17.381               You can read more about "package discovery" on setuptools
+11:13:17.381       documentation page:
+11:13:17.381 
+11:13:17.381               -
+11:13:17.381       https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+11:13:17.381 
+11:13:17.381               If you don't want 'gensim.test.test_data.PathLineSentences' to
+11:13:17.381       be distributed and are
+11:13:17.381               already explicitly excluding
+11:13:17.381       'gensim.test.test_data.PathLineSentences' via
+11:13:17.381               `find_namespace_packages(...)/find_namespace` or
+11:13:17.381       `find_packages(...)/find`,
+11:13:17.381               you can try to use `exclude_package_data`, or
+11:13:17.381       `include-package-data=False` in
+11:13:17.381               combination with a more fine grained `package-data`
+11:13:17.381       configuration.
+11:13:17.381 
+11:13:17.381               You can read more about "package data files" on setuptools
+11:13:17.381       documentation page:
+11:13:17.381 
+11:13:17.381               - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+11:13:17.381 
+11:13:17.381 
+11:13:17.382               [^1]: For Python, any directory (with suitable naming) can be
+11:13:17.382       imported,
+11:13:17.382                     even if it does not contain any `.py` files.
+11:13:17.382                     On the other hand, currently there is no concept of
+11:13:17.382       package data
+11:13:17.382                     directory, all directories are treated like packages.
+11:13:17.382       
+11:13:17.382       ********************************************************************************
+11:13:17.382 
+11:13:17.382       !!
+11:13:17.382         check.warn(importable)
+11:13:17.382       /vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/setuptools/command/build_py.py:215:
+11:13:17.382       _Warning: Package 'gensim.test.test_data.old_d2v_models' is absent from
+11:13:17.382       the `packages` configuration.
+11:13:17.382       !!
+11:13:17.382 
+11:13:17.382       
+11:13:17.382       ********************************************************************************
+11:13:17.382               ############################
+11:13:17.382               # Package would be ignored #
+11:13:17.382               ############################
+11:13:17.382               Python recognizes 'gensim.test.test_data.old_d2v_models' as an
+11:13:17.382       importable package[^1],
+11:13:17.382               but it is absent from setuptools' `packages` configuration.
+11:13:17.382 
+11:13:17.382               This leads to an ambiguous overall configuration. If you want to
+11:13:17.382       distribute this
+11:13:17.382               package, please make sure that
+11:13:17.382       'gensim.test.test_data.old_d2v_models' is explicitly added
+11:13:17.382               to the `packages` configuration field.
+11:13:17.382 
+11:13:17.383               Alternatively, you can also rely on setuptools' discovery
+11:13:17.383       methods
+11:13:17.383               (for example by using
+11:13:17.383       `find_namespace_packages(...)`/`find_namespace:`
+11:13:17.383               instead of `find_packages(...)`/`find:`).
+11:13:17.383 
+11:13:17.383               You can read more about "package discovery" on setuptools
+11:13:17.383       documentation page:
+11:13:17.383 
+11:13:17.383               -
+11:13:17.383       https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+11:13:17.383 
+11:13:17.383               If you don't want 'gensim.test.test_data.old_d2v_models' to be
+11:13:17.383       distributed and are
+11:13:17.383               already explicitly excluding
+11:13:17.383       'gensim.test.test_data.old_d2v_models' via
+11:13:17.383               `find_namespace_packages(...)/find_namespace` or
+11:13:17.383       `find_packages(...)/find`,
+11:13:17.383               you can try to use `exclude_package_data`, or
+11:13:17.383       `include-package-data=False` in
+11:13:17.383               combination with a more fine grained `package-data`
+11:13:17.383       configuration.
+11:13:17.383 
+11:13:17.383               You can read more about "package data files" on setuptools
+11:13:17.383       documentation page:
+11:13:17.383 
+11:13:17.384               - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+11:13:17.384 
+11:13:17.384 
+11:13:17.384               [^1]: For Python, any directory (with suitable naming) can be
+11:13:17.384       imported,
+11:13:17.384                     even if it does not contain any `.py` files.
+11:13:17.384                     On the other hand, currently there is no concept of
+11:13:17.384       package data
+11:13:17.384                     directory, all directories are treated like packages.
+11:13:17.384       
+11:13:17.384       ********************************************************************************
+11:13:17.384 
+11:13:17.384       !!
+11:13:17.384         check.warn(importable)
+11:13:17.384       /vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/setuptools/command/build_py.py:215:
+11:13:17.384       _Warning: Package 'gensim.test.test_data.old_w2v_models' is absent from
+11:13:17.385       the `packages` configuration.
+11:13:17.386       !!
+11:13:17.386 
+11:13:17.386       
+11:13:17.386       ********************************************************************************
+11:13:17.386               ############################
+11:13:17.386               # Package would be ignored #
+11:13:17.386               ############################
+11:13:17.386               Python recognizes 'gensim.test.test_data.old_w2v_models' as an
+11:13:17.387       importable package[^1],
+11:13:17.387               but it is absent from setuptools' `packages` configuration.
+11:13:17.387 
+11:13:17.387               This leads to an ambiguous overall configuration. If you want to
+11:13:17.387       distribute this
+11:13:17.387               package, please make sure that
+11:13:17.387       'gensim.test.test_data.old_w2v_models' is explicitly added
+11:13:17.388               to the `packages` configuration field.
+11:13:17.388 
+11:13:17.388               Alternatively, you can also rely on setuptools' discovery
+11:13:17.388       methods
+11:13:17.388               (for example by using
+11:13:17.388       `find_namespace_packages(...)`/`find_namespace:`
+11:13:17.388               instead of `find_packages(...)`/`find:`).
+11:13:17.388 
+11:13:17.388               You can read more about "package discovery" on setuptools
+11:13:17.388       documentation page:
+11:13:17.388 
+11:13:17.388               -
+11:13:17.388       https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+11:13:17.388 
+11:13:17.388               If you don't want 'gensim.test.test_data.old_w2v_models' to be
+11:13:17.389       distributed and are
+11:13:17.389               already explicitly excluding
+11:13:17.389       'gensim.test.test_data.old_w2v_models' via
+11:13:17.389               `find_namespace_packages(...)/find_namespace` or
+11:13:17.389       `find_packages(...)/find`,
+11:13:17.389               you can try to use `exclude_package_data`, or
+11:13:17.389       `include-package-data=False` in
+11:13:17.389               combination with a more fine grained `package-data`
+11:13:17.389       configuration.
+11:13:17.389 
+11:13:17.389               You can read more about "package data files" on setuptools
+11:13:17.389       documentation page:
+11:13:17.389 
+11:13:17.389               - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+11:13:17.389 
+11:13:17.389 
+11:13:17.390               [^1]: For Python, any directory (with suitable naming) can be
+11:13:17.390       imported,
+11:13:17.390                     even if it does not contain any `.py` files.
+11:13:17.390                     On the other hand, currently there is no concept of
+11:13:17.390       package data
+11:13:17.390                     directory, all directories are treated like packages.
+11:13:17.390       
+11:13:17.390       ********************************************************************************
+11:13:17.390 
+11:13:17.390       !!
+11:13:17.390         check.warn(importable)
+11:13:17.390       gensim/models/word2vec_inner.c:853:1: warning: ‘Py_UNICODE’ is
+11:13:17.390       deprecated [-Wdeprecated-declarations]
+11:13:17.390         853 | static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const
+11:13:17.390       Py_UNICODE *u) {
+11:13:17.392             | ^~~~~~
+11:13:17.392       gensim/models/word2vec_inner.c: In function ‘__Pyx_Py_UNICODE_strlen’:
+11:13:17.392       gensim/models/word2vec_inner.c:854:5: warning: ‘Py_UNICODE’ is
+11:13:17.392       deprecated [-Wdeprecated-declarations]
+11:13:17.392         854 |     const Py_UNICODE *u_end = u;
+11:13:17.392             |     ^~~~~
+11:13:17.392       In file included from
+11:13:17.392       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/Python.h:72,
+11:13:17.392                        from gensim/models/word2vec_inner.c:25:
+11:13:17.392       gensim/models/word2vec_inner.c: In function
+11:13:17.392       ‘__pyx_f_5numpy_PyDataType_SHAPE’:
+11:13:17.392       gensim/models/word2vec_inner.c:9364:39: error: ‘PyArray_Descr’ {aka
+11:13:17.392       ‘struct _PyArray_Descr’} has no member named ‘subarray’
+11:13:17.392        9364 |     __Pyx_INCREF(((PyObject*)__pyx_v_d->subarray->shape));
+11:13:17.392             |                                       ^~
+11:13:17.392       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/pyport.h:37:38:
+11:13:17.392       note: in definition of macro ‘_Py_CAST’
+11:13:17.392          37 | #define _Py_CAST(type, expr) ((type)(expr))
+11:13:17.392             |                                      ^~~~
+11:13:17.393       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/refcount.h:306:35:
+11:13:17.393       note: in expansion of macro ‘_PyObject_CAST’
+11:13:17.393         306 | #  define Py_INCREF(op) Py_INCREF(_PyObject_CAST(op))
+11:13:17.393             |                                   ^~~~~~~~~~~~~~
+11:13:17.393       gensim/models/word2vec_inner.c:1447:27: note: in expansion of macro
+11:13:17.393       ‘Py_INCREF’
+11:13:17.393        1447 |   #define __Pyx_INCREF(r) Py_INCREF(r)
+11:13:17.393             |                           ^~~~~~~~~
+11:13:17.393       gensim/models/word2vec_inner.c:9364:5: note: in expansion of macro
+11:13:17.393       ‘__Pyx_INCREF’
+11:13:17.393        9364 |     __Pyx_INCREF(((PyObject*)__pyx_v_d->subarray->shape));
+11:13:17.393             |     ^~~~~~~~~~~~
+11:13:17.393       gensim/models/word2vec_inner.c:9365:36: error: ‘PyArray_Descr’ {aka
+11:13:17.393       ‘struct _PyArray_Descr’} has no member named ‘subarray’
+11:13:17.393        9365 |     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
+11:13:17.393             |                                    ^~
+11:13:17.393       gensim/models/word2vec_inner.c: In function
+11:13:17.393       ‘__pyx_pymod_exec_word2vec_inner’:
+11:13:17.393       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.393       member named ‘ma_version_tag’
+11:13:17.393        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.393       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.394             |                                                               ^~
+11:13:17.394       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.394       ‘likely’
+11:13:17.394         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.394             |                                           ^
+11:13:17.394       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.394       ‘__PYX_GET_DICT_VERSION’
+11:13:17.394        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.394       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.394             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.394       gensim/models/word2vec_inner.c:10747:3: note: in expansion of macro
+11:13:17.394       ‘__Pyx_GetModuleGlobalName’
+11:13:17.394       10747 |   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if
+11:13:17.394       (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
+11:13:17.394             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.394       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.394       member named ‘ma_version_tag’
+11:13:17.394        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.394       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.394             |                                                               ^~
+11:13:17.394       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.394       ‘likely’
+11:13:17.394         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.395             |                                           ^
+11:13:17.395       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.395       ‘__PYX_GET_DICT_VERSION’
+11:13:17.395        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.395       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.395             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.395       gensim/models/word2vec_inner.c:10762:3: note: in expansion of macro
+11:13:17.395       ‘__Pyx_GetModuleGlobalName’
+11:13:17.396       10762 |   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fblas); if
+11:13:17.396       (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
+11:13:17.396             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.396       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.396       member named ‘ma_version_tag’
+11:13:17.396        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.396       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.396             |                                                               ^~
+11:13:17.396       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.396       ‘likely’
+11:13:17.396         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.396             |                                           ^
+11:13:17.396       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.396       ‘__PYX_GET_DICT_VERSION’
+11:13:17.396        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.396       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.396             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.396       gensim/models/word2vec_inner.c:10780:3: note: in expansion of macro
+11:13:17.396       ‘__Pyx_GetModuleGlobalName’
+11:13:17.396       10780 |   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fblas); if
+11:13:17.396       (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
+11:13:17.396             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.396       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.396       member named ‘ma_version_tag’
+11:13:17.396        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.396       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.397             |                                                               ^~
+11:13:17.397       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.397       ‘likely’
+11:13:17.397         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.397             |                                           ^
+11:13:17.397       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.397       ‘__PYX_GET_DICT_VERSION’
+11:13:17.397        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.397       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.397             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.397       gensim/models/word2vec_inner.c:10798:3: note: in expansion of macro
+11:13:17.397       ‘__Pyx_GetModuleGlobalName’
+11:13:17.398       10798 |   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fblas); if
+11:13:17.398       (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+11:13:17.398             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.398       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.398       member named ‘ma_version_tag’
+11:13:17.398        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.398       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.398             |                                                               ^~
+11:13:17.398       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.398       ‘likely’
+11:13:17.398         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.398             |                                           ^
+11:13:17.398       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.398       ‘__PYX_GET_DICT_VERSION’
+11:13:17.398        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.398       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.398             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.399       gensim/models/word2vec_inner.c:10816:3: note: in expansion of macro
+11:13:17.399       ‘__Pyx_GetModuleGlobalName’
+11:13:17.399       10816 |   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fblas); if
+11:13:17.399       (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
+11:13:17.399             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.399       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.399       member named ‘ma_version_tag’
+11:13:17.399        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.399       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.399             |                                                               ^~
+11:13:17.399       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.399       ‘likely’
+11:13:17.400         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.400             |                                           ^
+11:13:17.400       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.400       ‘__PYX_GET_DICT_VERSION’
+11:13:17.400        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.400       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.400             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.401       gensim/models/word2vec_inner.c:10834:3: note: in expansion of macro
+11:13:17.401       ‘__Pyx_GetModuleGlobalName’
+11:13:17.401       10834 |   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fblas); if
+11:13:17.402       (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+11:13:17.402             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.402       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.402       member named ‘ma_version_tag’
+11:13:17.402        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.402       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.402             |                                                               ^~
+11:13:17.402       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.402       ‘likely’
+11:13:17.402         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.403             |                                           ^
+11:13:17.403       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.403       ‘__PYX_GET_DICT_VERSION’
+11:13:17.403        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.403       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.403             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.403       gensim/models/word2vec_inner.c:10852:3: note: in expansion of macro
+11:13:17.403       ‘__Pyx_GetModuleGlobalName’
+11:13:17.403       10852 |   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fblas); if
+11:13:17.403       (unlikely(!__pyx_t_1)) __PYX_ERR(0, 34, __pyx_L1_error)
+11:13:17.404             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.404       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.404       member named ‘ma_version_tag’
+11:13:17.404        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.404       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.404             |                                                               ^~
+11:13:17.404       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.404       ‘likely’
+11:13:17.405         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.405             |                                           ^
+11:13:17.405       gensim/models/word2vec_inner.c:1714:43: note: in expansion of macro
+11:13:17.405       ‘__PYX_GET_DICT_VERSION’
+11:13:17.405        1714 |     (var) = (likely(__pyx_dict_version ==
+11:13:17.405       __PYX_GET_DICT_VERSION(__pyx_d))) ?\
+11:13:17.405             |                                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.406       gensim/models/word2vec_inner.c:10947:3: note: in expansion of macro
+11:13:17.406       ‘__Pyx_GetModuleGlobalName’
+11:13:17.406       10947 |   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_init); if
+11:13:17.406       (unlikely(!__pyx_t_1)) __PYX_ERR(0, 960, __pyx_L1_error)
+11:13:17.406             |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.406       gensim/models/word2vec_inner.c: In function ‘__Pyx_PyInt_NeObjC’:
+11:13:17.406       gensim/models/word2vec_inner.c:11068:51: error: ‘PyLongObject’ {aka
+11:13:17.406       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.407       11068 |         const digit* digits = ((PyLongObject*)op1)->ob_digit;
+11:13:17.407             |                                                   ^~
+11:13:17.407       gensim/models/word2vec_inner.c: In function ‘__Pyx_Raise’:
+11:13:17.407       gensim/models/word2vec_inner.c:11918:34: error: ‘PyThreadState’ {aka
+11:13:17.407       ‘struct _ts’} has no member named ‘curexc_traceback’
+11:13:17.407       11918 |         PyObject* tmp_tb = tstate->curexc_traceback;
+11:13:17.407             |                                  ^~
+11:13:17.407       gensim/models/word2vec_inner.c:11921:19: error: ‘PyThreadState’ {aka
+11:13:17.407       ‘struct _ts’} has no member named ‘curexc_traceback’
+11:13:17.408       11921 |             tstate->curexc_traceback = tb;
+11:13:17.408             |                   ^~
+11:13:17.408       gensim/models/word2vec_inner.c: In function ‘__Pyx_get_tp_dict_version’:
+11:13:17.408       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.408       member named ‘ma_version_tag’
+11:13:17.408        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.408       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.408             |                                                               ^~
+11:13:17.408       gensim/models/word2vec_inner.c:12062:27: note: in expansion of macro
+11:13:17.408       ‘__PYX_GET_DICT_VERSION’
+11:13:17.409       12062 |     return likely(dict) ? __PYX_GET_DICT_VERSION(dict) : 0;
+11:13:17.409             |                           ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.409       gensim/models/word2vec_inner.c: In function
+11:13:17.409       ‘__Pyx_get_object_dict_version’:
+11:13:17.409       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.409       member named ‘ma_version_tag’
+11:13:17.409        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.409       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.409             |                                                               ^~
+11:13:17.409       gensim/models/word2vec_inner.c:12074:36: note: in expansion of macro
+11:13:17.409       ‘__PYX_GET_DICT_VERSION’
+11:13:17.409       12074 |     return (dictptr && *dictptr) ?
+11:13:17.409       __PYX_GET_DICT_VERSION(*dictptr) : 0;
+11:13:17.409             |                                    ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.409       gensim/models/word2vec_inner.c: In function
+11:13:17.409       ‘__Pyx_object_dict_version_matches’:
+11:13:17.409       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.409       member named ‘ma_version_tag’
+11:13:17.409        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.409       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.409             |                                                               ^~
+11:13:17.409       gensim/models/word2vec_inner.c:963:43: note: in definition of macro
+11:13:17.410       ‘unlikely’
+11:13:17.410         963 |   #define unlikely(x) __builtin_expect(!!(x), 0)
+11:13:17.410             |                                           ^
+11:13:17.410       gensim/models/word2vec_inner.c:12078:56: note: in expansion of macro
+11:13:17.410       ‘__PYX_GET_DICT_VERSION’
+11:13:17.411       12078 |     if (unlikely(!dict) || unlikely(tp_dict_version !=
+11:13:17.411       __PYX_GET_DICT_VERSION(dict)))
+11:13:17.411             |
+11:13:17.411       ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.411       gensim/models/word2vec_inner.c: In function
+11:13:17.411       ‘__Pyx__GetModuleGlobalName’:
+11:13:17.411       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.411       member named ‘ma_version_tag’
+11:13:17.411        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.411       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.411             |                                                               ^~
+11:13:17.411       gensim/models/word2vec_inner.c:1688:21: note: in expansion of macro
+11:13:17.411       ‘__PYX_GET_DICT_VERSION’
+11:13:17.411        1688 |     (version_var) = __PYX_GET_DICT_VERSION(dict);\
+11:13:17.411             |                     ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.411       gensim/models/word2vec_inner.c:12095:5: note: in expansion of macro
+11:13:17.411       ‘__PYX_UPDATE_DICT_CACHE’
+11:13:17.411       12095 |     __PYX_UPDATE_DICT_CACHE(__pyx_d, result, *dict_cached_value,
+11:13:17.411       *dict_version)
+11:13:17.412             |     ^~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.412       gensim/models/word2vec_inner.c: In function ‘__Pyx_CLineForTraceback’:
+11:13:17.412       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.412       member named ‘ma_version_tag’
+11:13:17.412        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.412       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.412             |                                                               ^~
+11:13:17.413       gensim/models/word2vec_inner.c:962:43: note: in definition of macro
+11:13:17.413       ‘likely’
+11:13:17.413         962 |   #define likely(x)   __builtin_expect(!!(x), 1)
+11:13:17.413             |                                           ^
+11:13:17.413       gensim/models/word2vec_inner.c:1693:16: note: in expansion of macro
+11:13:17.413       ‘__PYX_GET_DICT_VERSION’
+11:13:17.413        1693 |     if (likely(__PYX_GET_DICT_VERSION(DICT) ==
+11:13:17.413       __pyx_dict_version)) {\
+11:13:17.413             |                ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.413       gensim/models/word2vec_inner.c:12176:9: note: in expansion of macro
+11:13:17.413       ‘__PYX_PY_DICT_LOOKUP_IF_MODIFIED’
+11:13:17.413       12176 |         __PYX_PY_DICT_LOOKUP_IF_MODIFIED(
+11:13:17.413             |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.413       gensim/models/word2vec_inner.c:1686:63: error: ‘PyDictObject’ has no
+11:13:17.413       member named ‘ma_version_tag’
+11:13:17.413        1686 | #define __PYX_GET_DICT_VERSION(dict)
+11:13:17.413       (((PyDictObject*)(dict))->ma_version_tag)
+11:13:17.413             |                                                               ^~
+11:13:17.413       gensim/models/word2vec_inner.c:1697:30: note: in expansion of macro
+11:13:17.413       ‘__PYX_GET_DICT_VERSION’
+11:13:17.414        1697 |         __pyx_dict_version = __PYX_GET_DICT_VERSION(DICT);\
+11:13:17.414             |                              ^~~~~~~~~~~~~~~~~~~~~~
+11:13:17.414       gensim/models/word2vec_inner.c:12176:9: note: in expansion of macro
+11:13:17.414       ‘__PYX_PY_DICT_LOOKUP_IF_MODIFIED’
+11:13:17.414       12176 |         __PYX_PY_DICT_LOOKUP_IF_MODIFIED(
+11:13:17.414             |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+11:13:17.414       gensim/models/word2vec_inner.c: In function
+11:13:17.414       ‘__Pyx_PyInt_As_PY_LONG_LONG’:
+11:13:17.414       gensim/models/word2vec_inner.c:12812:53: error: ‘PyLongObject’ {aka
+11:13:17.414       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.414       12812 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.414             |                                                     ^~
+11:13:17.414       gensim/models/word2vec_inner.c:12867:53: error: ‘PyLongObject’ {aka
+11:13:17.414       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.414       12867 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.414             |                                                     ^~
+11:13:17.414       gensim/models/word2vec_inner.c:12953:27: error: too few arguments to
+11:13:17.414       function ‘_PyLong_AsByteArray’
+11:13:17.414       12953 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+11:13:17.414             |                           ^~~~~~~~~~~~~~~~~~~
+11:13:17.414       In file included from
+11:13:17.415       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/longobject.h:171,
+11:13:17.415                        from
+11:13:17.415       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/Python.h:92,
+11:13:17.415                        from gensim/models/word2vec_inner.c:25:
+11:13:17.415       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/cpython/longobject.h:84:17:
+11:13:17.415       note: declared here
+11:13:17.415          84 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+11:13:17.415             |                 ^~~~~~~~~~~~~~~~~~~
+11:13:17.415       gensim/models/word2vec_inner.c: In function ‘__Pyx_PyInt_As_int’:
+11:13:17.415       gensim/models/word2vec_inner.c:13046:53: error: ‘PyLongObject’ {aka
+11:13:17.415       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.415       13046 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.415             |                                                     ^~
+11:13:17.416       gensim/models/word2vec_inner.c:13101:53: error: ‘PyLongObject’ {aka
+11:13:17.416       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.416       13101 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.416             |                                                     ^~
+11:13:17.416       gensim/models/word2vec_inner.c:13187:27: error: too few arguments to
+11:13:17.416       function ‘_PyLong_AsByteArray’
+11:13:17.416       13187 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+11:13:17.416             |                           ^~~~~~~~~~~~~~~~~~~
+11:13:17.416       In file included from
+11:13:17.416       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/longobject.h:171,
+11:13:17.416                        from
+11:13:17.416       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/Python.h:92,
+11:13:17.416                        from gensim/models/word2vec_inner.c:25:
+11:13:17.416       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/cpython/longobject.h:84:17:
+11:13:17.416       note: declared here
+11:13:17.416          84 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+11:13:17.416             |                 ^~~~~~~~~~~~~~~~~~~
+11:13:17.416       gensim/models/word2vec_inner.c: In function
+11:13:17.416       ‘__Pyx_PyInt_As_unsigned_PY_LONG_LONG’:
+11:13:17.416       gensim/models/word2vec_inner.c:13242:53: error: ‘PyLongObject’ {aka
+11:13:17.417       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.417       13242 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.417             |                                                     ^~
+11:13:17.417       gensim/models/word2vec_inner.c:13297:53: error: ‘PyLongObject’ {aka
+11:13:17.417       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.417       13297 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.417             |                                                     ^~
+11:13:17.417       gensim/models/word2vec_inner.c:13383:27: error: too few arguments to
+11:13:17.417       function ‘_PyLong_AsByteArray’
+11:13:17.417       13383 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+11:13:17.417             |                           ^~~~~~~~~~~~~~~~~~~
+11:13:17.417       In file included from
+11:13:17.417       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/longobject.h:171,
+11:13:17.417                        from
+11:13:17.417       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/Python.h:92,
+11:13:17.417                        from gensim/models/word2vec_inner.c:25:
+11:13:17.417       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/cpython/longobject.h:84:17:
+11:13:17.417       note: declared here
+11:13:17.417          84 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+11:13:17.417             |                 ^~~~~~~~~~~~~~~~~~~
+11:13:17.417       gensim/models/word2vec_inner.c: In function ‘__Pyx_PyInt_As_npy_uint32’:
+11:13:17.417       gensim/models/word2vec_inner.c:13438:53: error: ‘PyLongObject’ {aka
+11:13:17.417       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.418       13438 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.418             |                                                     ^~
+11:13:17.418       gensim/models/word2vec_inner.c:13493:53: error: ‘PyLongObject’ {aka
+11:13:17.418       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.418       13493 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.418             |                                                     ^~
+11:13:17.418       gensim/models/word2vec_inner.c:13579:27: error: too few arguments to
+11:13:17.418       function ‘_PyLong_AsByteArray’
+11:13:17.418       13579 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+11:13:17.418             |                           ^~~~~~~~~~~~~~~~~~~
+11:13:17.418       In file included from
+11:13:17.418       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/longobject.h:171,
+11:13:17.418                        from
+11:13:17.418       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/Python.h:92,
+11:13:17.418                        from gensim/models/word2vec_inner.c:25:
+11:13:17.418       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/cpython/longobject.h:84:17:
+11:13:17.418       note: declared here
+11:13:17.418          84 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+11:13:17.418             |                 ^~~~~~~~~~~~~~~~~~~
+11:13:17.418       gensim/models/word2vec_inner.c: In function ‘__Pyx_PyInt_As_long’:
+11:13:17.418       gensim/models/word2vec_inner.c:13634:53: error: ‘PyLongObject’ {aka
+11:13:17.419       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.419       13634 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.419             |                                                     ^~
+11:13:17.419       gensim/models/word2vec_inner.c:13689:53: error: ‘PyLongObject’ {aka
+11:13:17.419       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.419       13689 |             const digit* digits = ((PyLongObject*)x)->ob_digit;
+11:13:17.419             |                                                     ^~
+11:13:17.419       gensim/models/word2vec_inner.c:13775:27: error: too few arguments to
+11:13:17.419       function ‘_PyLong_AsByteArray’
+11:13:17.419       13775 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+11:13:17.419             |                           ^~~~~~~~~~~~~~~~~~~
+11:13:17.419       In file included from
+11:13:17.419       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/longobject.h:171,
+11:13:17.419                        from
+11:13:17.419       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/Python.h:92,
+11:13:17.419                        from gensim/models/word2vec_inner.c:25:
+11:13:17.419       /uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14/cpython/longobject.h:84:17:
+11:13:17.419       note: declared here
+11:13:17.419          84 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+11:13:17.419             |                 ^~~~~~~~~~~~~~~~~~~
+11:13:17.419       gensim/models/word2vec_inner.c: In function ‘__Pyx_PyIndex_AsSsize_t’:
+11:13:17.419       gensim/models/word2vec_inner.c:14208:45: error: ‘PyLongObject’ {aka
+11:13:17.419       ‘struct _longobject’} has no member named ‘ob_digit’
+11:13:17.419       14208 |     const digit* digits = ((PyLongObject*)b)->ob_digit;
+11:13:17.419             |                                             ^~
+11:13:17.419       error: Command '['cc', '-pthread', '-fno-strict-overflow',
+11:13:17.419       '-Wsign-compare', '-Wunreachable-code', '-DNDEBUG', '-g', '-O3',
+11:13:17.419       '-Wall', '-O3', '-fstack-protector', '-fstack-clash-protection',
+11:13:17.419       '-U_FORTIFY_SOURCE', '-D_FORTIFY_SOURCE=2', '-fno-omit-frame-pointer',
+11:13:17.419       '-mno-omit-leaf-frame-pointer', '-fPIC', '-fPIC',
+11:13:17.419       '-I/vercel/.cache/uv/builds-v0/.tmpggJnnu/include',
+11:13:17.419       '-I/uv/python/versions/cpython-3.14.8-linux-x86_64-gnu/include/python3.14',
+11:13:17.419       '-I/vercel/.cache/uv/builds-v0/.tmpggJnnu/lib/python3.14/site-packages/numpy/_core/include',
+11:13:17.419       '-c', 'gensim/models/word2vec_inner.c', '-o',
+11:13:17.419       'build/temp.linux-x86_64-cpython-314/gensim/models/word2vec_inner.o']'
+11:13:17.419       returned non-zero exit status 1.
+11:13:17.420 
+11:13:17.420       hint: This usually indicates a problem with the package or the build
+11:13:17.420       environment.
+11:13:17.420 Error: [BUILD_UTILS_SPAWN_1] Command "uv pip install" exited with 1

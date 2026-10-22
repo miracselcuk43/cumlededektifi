@@ -342,15 +342,12 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software...`
     },
     "requirements.txt": {
-      desc: "Python kütüphane bağımlılıkları",
+      desc: "Python kütüphane bağımlılıkları (Vercel ve sunucusuz ortamlarla %100 uyumlu)",
       type: "text",
-      content: `flask==3.0.3
-gensim==4.3.3
-scikit-learn==1.5.2
-numpy==1.26.4
-pytest==8.3.3
-gunicorn==23.0.0
-requests==2.32.3`
+      content: `flask>=3.0.0
+gunicorn>=21.0.0
+requests>=2.31.0
+pytest>=8.0.0`
     },
     "README.md": {
       desc: "Kapsamlı akademik dokümantasyon, kurulum ve Vercel/GitHub kılavuzu",
